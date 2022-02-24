@@ -1,0 +1,30 @@
+html {
+    background-color: rgb(243, 202, 114);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(179, 73, 31);
+}
+
+.interface {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.interface input {
+    border: none;
+    background-color: transparent;
+    border-bottom: solid 1px black;
+    width: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.interface input:focus {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    border-bottom: solid 1px black;
+}

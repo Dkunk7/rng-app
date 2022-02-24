@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Random Number Generator</title>
 </head>
 <body>
@@ -11,19 +12,20 @@
 
     <div class = "container">
         <div class="interface">
-            <h3>Pick a number between</h3>
+            <h3>Pick a number from</h3>
             <label for="low-num"></label>
-            <input type="text" name = "low-num">
-            <h3>and</h3>
+            <input type="text" id = "low-num" name = "low-num">
+            <h3>to</h3>
             <label for="high-num"></label>
-            <input type="text" name = "high-num">
+            <input type="text" id = "high-num" name = "high-num">
 
-            <button>Generate Number</button>
         </div>
-        <div class="num-container">
-            <h2></h2>
+        <button id = "generate">Generate Number</button>
+        <div class="num-div">
+            <h2 id = "num-container"></h2>
         </div>
     </div>
     
+    <script src = "script.js"></script>
 </body>
 </html>
